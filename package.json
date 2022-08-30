@@ -1,0 +1,32 @@
+{
+  "name": "gauge-basic-steps",
+  "version": "1.0.0",
+  "description": "Some building cube for the Gauge test steps and concepts",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc -d",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorion/gauge-basic-steps.git"
+  },
+  "keywords": [
+    "Gauge",
+    "BDD"
+  ],
+  "author": "Tamás Dévai",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dorion/gauge-basic-steps/issues"
+  },
+  "homepage": "https://github.com/dorion/gauge-basic-steps#readme",
+  "devDependencies": {
+    "jest": "^29.0.1",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "gauge-ts": "^0.1.1"
+  }
+}
